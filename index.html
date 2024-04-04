@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celebration Card Generator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="eid-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+<div class="container">
+    <h2>Enter Your Name</h2>
+    <form id="nameForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <button type="submit">Generate Card</button>
+    </form>
+    <div id="cardContainer"></div>
+    <button id="downloadButton" style="display:none;">Download Card</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

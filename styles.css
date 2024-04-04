@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #401F71;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #824D74;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #BE7B72;
+    border-radius: 5px;
+    background-color: #BE7B72;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f89f63; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df7a37; /* Darker blue on hover */
+}
+
+.card {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.card canvas {
+    display: block; /* Ensure canvas behaves as a block element */
+    margin: 0 auto; /* Center the canvas horizontally */
+}
+
+#downloadButton {
+    display: block;
+    margin: 20px auto; /* Center the download button */
+}
